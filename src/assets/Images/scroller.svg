@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="20px" viewBox="0 0 16 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="001a_Home_v7" transform="translate(-712.000000, -969.000000)" fill="#FFFFFF">
+            <g id="Group" transform="translate(712.000000, 969.000000)">
+                <polygon id="Fill-1-Copy" transform="translate(8.000000, 10.000000) scale(1, -1) translate(-8.000000, -10.000000) " points="8 6.07718019 0 13.9228198 2.6274206 13.9228198 8 8.65390459 13.3731991 13.9228198 16 13.9228198"></polygon>
+                <polygon id="Fill-1-Copy-3" opacity="0.6" transform="translate(8.000000, 16.077180) scale(1, -1) translate(-8.000000, -16.077180) " points="8 12.1543604 0 20 2.6274206 20 8 14.7310848 13.3731991 20 16 20"></polygon>
+                <polygon id="Fill-1-Copy-2" opacity="0.4" transform="translate(8.000000, 3.922820) scale(1, -1) translate(-8.000000, -3.922820) " points="8 0 0 7.84563962 2.6274206 7.84563962 8 2.5767244 13.3731991 7.84563962 16 7.84563962"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

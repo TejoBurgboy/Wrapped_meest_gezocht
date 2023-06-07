@@ -1,0 +1,416 @@
+@import './base.css';
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+@font-face {
+  font-family: icomoon;
+  src: url(./fonts/IcoMoon-Free.ttf);
+}
+
+@font-face {
+  font-family: main-font;
+  src: url(./fonts/GeogrotesqueTRIAL-Rg.otf);
+}
+
+@font-face {
+  font-family: title-font;
+  src: url(./fonts/GeogrotesqueTRIAL-Bd.otf);
+}
+
+:root {
+  --page-color: #F4447A;
+  --page-color-footer: rgb(244, 68, 122, .2);
+  --secondary-page-color: rgb(205, 92, 50);
+  --tekst-kleur: #FFFFFF;
+  --svg-backgound: rgb(0, 0, 0, .15);
+
+  --main-font: main-font;
+  --title-font: title-font;
+}
+
+body {
+  background: linear-gradient(to right, var(--page-color), var(--secondary-page-color));
+  color: var(--tekst-kleur);
+  font-family: var(--main-font);
+  padding-top: 16px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 3%;
+  z-index: 2;
+}
+
+.rightTop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 0 32px 0 32px;
+}
+
+figure {
+  display: flex;
+  flex-direction: row;
+}
+
+label {
+  position: absolute;
+  width: 36%;
+  left: 32%;
+  margin: 6px 0px 6px 0px;
+  background-color: var(--svg-backgound);
+  display: flex;
+  justify-content: space-between;
+  padding: 0 19px 0 19px;
+  border-radius: 4ch;
+}
+
+label>svg {
+  margin-bottom: 13px;
+  margin-top: 13px;
+}
+
+#rightop {
+  margin-top: 21px;
+}
+
+input {
+  width: 90%;
+  margin: 4px 8px 4px 8px;
+  border: none;
+  background-color: transparent;
+  padding: 0 32px 0 32px;
+  text-align: center;
+}
+
+input::placeholder {
+  font-family: var(--main-font);
+  font-size: 18px;
+  color: white;
+
+}
+
+input:focus {
+  outline: none;
+}
+
+header>svg,
+.smgBackground>svg {
+  margin: 15px 0px 9px 0px;
+  color: white
+}
+
+.smgBackground {
+  padding: 0 16px 0 16px;
+  height: 70%;
+  background-color: var(--svg-backgound);
+  border-radius: 1ch;
+  margin-right: 8px;
+}
+
+figcaption {
+  font-size: 19px;
+  margin-top: 14px;
+  margin-left: 16px;
+}
+
+figure>img {
+  width: 22%;
+  clip-path: circle();
+}
+
+main {
+  margin-top: 80px;
+  padding: 0 144px 0 144px;
+}
+
+h1 {
+  font-family: var(--title-font);
+  font-size: 78px;
+  z-index: 1;
+  position: relative;
+}
+
+p {
+  font-size: 26px;
+}
+
+
+.bestbekekenfotos {
+  margin: 18% 10% 0% 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sitescreenshot {
+  margin-top: 120px;
+  width: 32%;
+  transform: rotate3d(1, 5, .5, 60deg);
+}
+
+#pic1 {
+  position: absolute;
+  left: 10%;
+  bottom: 20%;
+  z-index: 8;
+}
+
+#pic2 {
+  position: absolute;
+  left: 18%;
+  bottom: 23%;
+  z-index: 7;
+}
+
+#pic3 {
+  position: absolute;
+  left: 24%;
+  bottom: 26%;
+  z-index: 6;
+
+}
+
+#pic4 {
+  position: absolute;
+  left: 34%;
+  bottom: 29%;
+  z-index: 5;
+
+
+}
+
+#pic5 {
+  position: absolute;
+  left: 40%;
+  bottom: 32%;
+  z-index: 4;
+
+}
+
+#pic6 {
+  position: absolute;
+  left: 48%;
+  bottom: 35%;
+  z-index: 3;
+}
+
+#pic7 {
+  position: absolute;
+  left: 56%;
+  bottom: 38%;
+  z-index: 2;
+}
+
+#pic8 {
+  position: absolute;
+  left: 64%;
+  bottom: 41%;
+  z-index: 1;
+}
+
+.fotoinfo {
+  position: absolute;
+  margin-top: 3%;
+  margin-bottom: 30%;
+  left: 66%;
+  z-index: 10;
+}
+
+.sitelink {
+  font-size: 18px;
+  position: absolute;
+  top: 75%;
+}
+
+#nummer {
+  position: absolute;
+  right: 35%;
+  padding: 0 12px 0 12px;
+  background-color: black;
+  margin-right: 8px;
+  border-radius: .5ch;
+  margin-top: 4.3%;
+
+}
+
+.buddy {
+  position: absolute;
+  right: 8%;
+  top: 20%;
+  transform: scaleX(-1);
+}
+
+.icon-mute:before {
+  content: "\ea26";
+  transform: scaleX(0);
+}
+
+#peoplesvg {
+  margin-top: 6%;
+  margin-right: 3%;
+}
+
+.transparantSvg {
+  opacity: 0%;
+}
+
+.weergaven {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 100%;
+}
+
+.aantalWeergaven {
+  font-size: 32px;
+}
+
+.stijg {
+  margin-top: 5%;
+  margin-left: 12px;
+  padding: 0 16px 0 16px;
+  font-size: 13.8px;
+  border: solid #4BD970;
+  background-color: #4BD970;
+  border-radius: 2.5ch;
+}
+
+.daal {
+  margin-top: 5%;
+  margin-left: 12px;
+  padding: 0 24px 0 24px;
+  font-size: 13.8px;
+  border: solid red;
+  background-color: red;
+  border-radius: 2.5ch;
+}
+
+h4 {
+  text-align: left;
+  margin-bottom: 16px;
+  font-size: 56px;
+  font-family: var(--main-font);
+}
+
+.sitelink {
+  color: black;
+  font-size: 22px;
+}
+
+footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  padding-top: 160px;
+  display: flex;
+  background-color: var(--page-color-footer);
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+footer>img {
+  width: 2%;
+  height: 2%;
+  opacity: 100%;
+  margin-left: 3%;
+  margin-top: 32px;
+}
+
+
+.terugvolgende {
+  display: flex;
+  flex-direction: column;
+  margin-right: 2%;
+  margin-bottom: 32px;
+}
+
+#beneden {
+  position: absolute;
+  bottom: 18%;
+}
+
+#pagina {
+  font-size: 18px;
+  position: relative;
+  right: 20%;
+}
+
+#driePijl {
+  position: absolute;
+  bottom: 10px;
+  left: 49%;
+}
+
+.footerchange {
+  margin-top: 40%
+}
+
+.cls-1 {
+  fill: #502d1f;
+}
+
+.cls-2 {
+  fill: #693d2c;
+}
+
+.cls-3 {
+  fill: #7ba5ad;
+}
+
+.cls-4 {
+  fill: #ecaa8f;
+}
+
+.cls-5 {
+  fill: #dbb1b1;
+}
+
+.cls-6 {
+  fill: #f3c3c3;
+}
+
+.cls-7 {
+  fill: #f5dbdb;
+}
+
+.cls-8 {
+  fill: #ccc;
+}
+
+.cls-9 {
+  fill: #272222;
+}
+
+.cls-10 {
+  fill: #cb8365;
+}
+
+.cls-11 {
+  fill: #7b533a;
+}
+
+.cls-12 {
+  fill: #613f2a;
+}
+
+.cls-13 {
+  fill: #fff;
+}
+
+.cls-14 {
+  fill: #c64320;
+}
+
+.cls-15 {
+  fill: #ff6600;
+}
+
+.cls-16 {
+  fill: #f9c04a;
+}

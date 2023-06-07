@@ -1,0 +1,64 @@
+[
+    {
+        "image": "images/pag1.png",
+        "title": "Nos Home",
+        "url": "https://nos.nl/",
+        "visitors": 62525,
+        "trentPrecentage": 1,
+        "id": 1
+    },
+    {
+        "image": "images/pag2.png",
+        "title": "Nos Sport",
+        "url": "https://nos.nl/sport",
+        "visitors": 58525,
+        "trentPrecentage": -13,
+        "id": 2 
+    },
+    {
+        "image": "images/pag3.png",
+        "title": "Nos Voetbal",
+        "url": "https://nos.nl/sport/voetbal",
+        "visitors": 52312,
+        "trentPrecentage": -21,
+        "id": 3
+    },
+    {
+        "image": "images/pag4.png",
+        "title": "Nos Politiek",
+        "url": "https://nos.nl/nieuws/politiek",
+        "visitors": 51308,
+        "trentPrecentage": 11,
+        "id": 4 
+    },    {
+        "image": "images/pag5.png",
+        "title": "Nos Konningshuis",
+        "url": "https://nos.nl/nieuws/koningshuis",
+        "visitors": 49209,
+        "trentPrecentage": -5,
+        "id": 5 
+    },
+    {
+        "image": "images/pag6.png",
+        "title": "Nos Economie",
+        "url": "https://nos.nl/nieuws/economie",
+        "visitors": 47133,
+        "trentPrecentage": 4,
+        "id": 6 
+    },    {
+        "image": "images/pag7.png",
+        "title": "Nos Tennis",
+        "url": "https://nos.nl/sport/tennis",
+        "visitors": 46733,
+        "trentPrecentage": -9,
+        "id": 7 
+    },
+    {
+        "image": "images/pag8.png",
+        "title": "Nos Tech",
+        "url": "https://nos.nl/nieuws/tech",
+        "visitors": 46328,
+        "trentPrecentage": 32,
+        "id": 8 
+    }
+]
