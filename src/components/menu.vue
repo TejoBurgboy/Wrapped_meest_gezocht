@@ -47,13 +47,13 @@ export default {
             this.blurClass = 'blur'
             console.log(this.menusite)
             console.log(this.blurClass)
-            this.$emit('updateBlur', this.blurClass);        },
+            $emit('updateBlur', this.blurClass);        },
         menudeactive() {
             this.menusite = false
             this.blurClass = null
             console.log(this.menusite)
             console.log(this.blurClass)
-            this.$emit('updateBlur', this.blurClass);
+            $emit('updateBlur', this.blurClass);
         },
     }
 }

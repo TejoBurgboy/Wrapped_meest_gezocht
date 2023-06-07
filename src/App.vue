@@ -11,7 +11,7 @@ import hamburgermenu from './components/menu.vue'
       <div class="section" data-anchor="firstPage"></div>
       <div class="section" data-anchor="secondPage">
         <header>
-          <hamburgermenu/>
+          <hamburgermenu @update-blur="updateBlurFunction"/>
     <searchbar/>
     <div class="rightTop">
         <div class="smgBackground">
@@ -75,7 +75,7 @@ import hamburgermenu from './components/menu.vue'
         </figure>
     </div>
         </header>
-        <main @update-blur="updateBlurFuntion" :class="blurClass">
+        <main :class="blurClass">
           <h1>
             Meest bezochte pagina's
           </h1>
@@ -83,7 +83,7 @@ import hamburgermenu from './components/menu.vue'
           <datavisual />
           <chatbuddy />
         </main>
-        <footer @update-blur="updateBlurFuntion" :class="blurClass"><img src="./assets/Images/gi-logo-wit.png" alt="Get Interactive logo"><svg id="driePijl" width="16px"
+        <footer  :class="blurClass"><img src="./assets/Images/gi-logo-wit.png" alt="Get Interactive logo"><svg id="driePijl" width="16px"
             height="20px" viewBox="0 0 16 20" version="1.1" xmlns="http://www.w3.org/2000/svg"
             xmlns:xlink="http://www.w3.org/1999/xlink">
             <title>Group</title>
@@ -136,8 +136,20 @@ import hamburgermenu from './components/menu.vue'
 </template>
 <script>
 export default {
+  data() {
+    return {
+      blurClass: null
+      //options: {
+        //navigation: true,
+        //anchors: ['firstPage', 'secondPage', 'thirdPage'],
+        //menu: '#menu',
+        // other options
+      //},
+    };
+  },
+  components: {hamburgermenu},
   methods: {
-    updateBlurFuntion(value){
+    updateBlurFunction(value){
     this.blurClass = value
   }
     //(origin, destination, direction) {
@@ -146,16 +158,6 @@ export default {
     //onLeave(origin, destination, direction) {
       //console.log('Leaving section: ' + origin.anchor);
     //},
-  },
-  data() {
-    return {
-      //options: {
-        //navigation: true,
-        //anchors: ['firstPage', 'secondPage', 'thirdPage'],
-        //menu: '#menu',
-        // other options
-      //},
-    };
   },
 };
 </script>
