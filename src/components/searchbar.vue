@@ -82,10 +82,11 @@ function filteredList() {
 .searchies {
     display: flex;
     flex-direction: column;
-    position: fixed;
+    position: absolute;
     left: 45%;
     width: 10%;
-    top: 10%;
+    top: 90%;
+    z-index: 101;
     border-radius: 2ch;
     border: solid 1px black;
     background-color: rgb(135,206,235, .2);

@@ -1,0 +1,26 @@
+[
+    {
+        "vlag": "images/nl.png",
+        "land": "Nederland",
+        "afk": "NL",
+        "Bezoekers": 132525,
+        "trentPrecentage": 5,
+        "id": 1
+    },
+    {
+        "vlag": "images/be.png",
+        "land": "Belgie",
+        "afk": "BE",
+        "Bezoekers": 31321,
+        "trentPrecentage": 9,
+        "id": 2
+    },
+    {
+        "vlag": "images/de.png",
+        "land": "Duitsland",
+        "afk": "DE",
+        "Bezoekers": 8349,
+        "trentPrecentage": -13,
+        "id": 3
+    }
+]
