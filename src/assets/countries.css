@@ -1,44 +1,48 @@
-#countries{
-        background-color: #3C3D46;
-        color: white;
+#countries {
+    background-color: #F55D8C;
+    color: white;
 }
 
-#countries > main{
-    background-color: #3C3D46;
+#countries>main {
+    background-color: #F55D8C;
 }
 
-.countryInfo{
+.countryInfo {
     display: flex;
     flex-direction: column;
     margin-top: 2%;
 }
 
-.countrySpecific{
-margin-bottom: 2%;
+.countrySpecific {
+    margin-bottom: 2%;
+
 }
 
-.bezoekers{
-    color: #F4447A;
+.bezoekers {
+    color: black;
     font-size: 18px;
+    font-weight: bold;
 }
 
-.vlag{
+.vlag {
     width: 4%;
     height: 4%;
 }
-h3{
-    color:cyan;
-    font-size: 14px;
+
+h3 {
+    color: black;
+    font-size: 16px;
 }
 
-h5{
+h5 {
     color: white;
-font-size: 18px;
+    font-size: 24px;
 }
 
-.landenAantal{
+.landenAantal {
     color: white;
-    font-size: 28px;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .cfooter {
@@ -48,49 +52,56 @@ font-size: 18px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-  }
+}
 
-  .landInfo{
+.landInfo {
     display: flex;
-flex-direction: row;  
+    flex-direction: row;
 }
 
-.landNaam{
-  font-size: 20px; 
-  margin-left: 1%; 
+.landNaam {
+    font-size: 20px;
+    margin-left: 1%;
 }
 
-.cstijg{
+.cstijg {
     margin-left: 1%;
-    padding: 1% 1% 1% 1%;
-    font-size: 13.8px;
-    border: solid #4BD970;
-    background-color: #4BD970;
+    padding: .4% .9% .4% .9%;
+    font-size: 17px;
+    border: solid #4DDBB0;
+    background-color: #4DDBB0;
     border-radius: 2.5ch;
+    color: black;
+    font-weight: 800;
 }
-.cdaal{
+
+.cdaal {
     margin-left: 1%;
-    padding: 1% 1% 1% 1%;
-    font-size: 13.8px;
-    border: solid red;
-    background-color: red;
+    padding: .4% .9% .4% .9%;
+    font-size: 17px;
+    border: solid #E1371A;
+    background-color: #E1371A;
     border-radius: 2.5ch;
+    color: black;
+    font-weight: 800;
 }
 
 .mostCountryViews {
     position: absolute;
     left: -5%;
-    padding: .5% 1% .5% 1%;
-    background-color: black;
+    padding: .2% .8% .2% .8%;
+    color: black;
+    background-color: white;
     margin-top: 2%;
     margin-right: 8px;
     border-radius: .5ch;
-  }
+    font-weight: bold;
+    font-size: 20px;
+}
 
-#myearth{
-    width: 55%;
+#myearth {
+    width: 53%;
     position: absolute;
     right: 10%;
     bottom: -35%;
 }
-  

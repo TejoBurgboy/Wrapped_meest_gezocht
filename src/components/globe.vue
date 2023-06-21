@@ -1,6 +1,6 @@
 <template>
     <h3>
-        Bezoekersvanuit
+        Bezoekers vanuit
     </h3>
     <div class="landenAantal">108 landen</div>
     <div class="countryInfo">
@@ -25,7 +25,9 @@
 #myearth::after {
     background: radial-gradient(ellipse at center, rgba(5, 57, 89, 0.7) 0%, rgba(5, 57, 89, 0.55) 20%, rgba(5, 57, 89, 0.2) 40%, rgba(5, 57, 89, 0.1) 50%, rgba(5, 57, 89, 0.02) 60%, rgba(5, 57, 89, 0) 70%, rgba(5, 57, 89, 0) 100%);
 }
-
+.earth-overlay{
+    z-index: 0;
+}
 .countryGuests {
     position: relative;
     margin: -1em 0 0 -1em;
@@ -39,6 +41,7 @@
     cursor: pointer;
     transition: font-size 0.2s ease, background-color 0.2s ease;
     display: flex;
+    z-index: 1;
 }
 
 .countryGuests:hover {
@@ -46,12 +49,31 @@
     margin: -1.5em 0 0 -1.5em;
     width: 3em;
     height: 3em;
-    background-color: RGBA(0, 0, 0, 0.5);
+    background-color: RGBA(0, 0, 0, 1);
+    z-index: 100;
 }
 
 .countryGuests span {
     position: absolute;
-    top: 50%;
+    top: 40%;
+    left: 10%;
+    width: 80%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+    font-size: 0.7em;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    z-index: 1;
+}
+
+.countryGuests:hover span {
+    opacity: 2;
+    z-index: 100;
+}
+.countryGuests div {
+    position: absolute;
+    top: 60%;
     left: 10%;
     width: 80%;
     transform: translateY(-50%);
@@ -60,10 +82,12 @@
     font-size: 0.5em;
     opacity: 0;
     transition: opacity 0.2s ease;
+    z-index: 1;
 }
 
-.countryGuests:hover span {
-    opacity: 1;
+.countryGuests:hover div {
+    opacity: 2;
+    z-index: 100;
 }
 </style>
 
@@ -96,13 +120,9 @@ export default {
         
         var myearth = new Earth("myearth", {
             location: { lat: 22.5, lng: 20 },
-            autoRotate: true,
-            //mapLandColor: '#FFFFE2',
+            //autoRotate: true,
             mapLandColor: '#FFD074',
-            //mapSeaColor: '#0E87CC',
             mapSeaColor: '#00BFBF',
-            //mapStyles: this.nontop3,
-            //mapStyles: this.mapstiles,
             mapStyles: this.globestyle,
             mapBorderColor: "gray",
         });
@@ -110,21 +130,12 @@ export default {
         console.log(this.myJson)
         for (let country of this.myJson) {
             var myoverlay = myearth.addOverlay({
-                content: '<span>' + country.Bezoekers + " Bezoekers" + '</span>',
+                content: '<span>' + country.Bezoekers + '</span>' +'<div> Bezoekers </div>',
                 location: { lat: country.Lat, lng: country.Lng },
                 className: 'countryGuests',
                 depthScale: 0.33,
             });
         };
-
-        myoverlay.addEventListener('mouseover', myearth => {
-            autoRotate: false
-        })
-
-        myoverlay.addEventListener('mouseout', myearth => {
-            autoRotate: true
-        })
-
 
 
 

@@ -277,8 +277,8 @@ p {
   margin-left: 12px;
   padding: 0 16px 0 16px;
   font-size: 13.8px;
-  border: solid #4BD970;
-  background-color: #4BD970;
+  border: solid #4DDBB0;
+  background-color: #4DDBB0;
   border-radius: 2.5ch;
 }
 
@@ -287,8 +287,8 @@ p {
   margin-left: 12px;
   padding: 0 24px 0 24px;
   font-size: 13.8px;
-  border: solid red;
-  background-color: red;
+  border: solid #E1371A;
+    background-color: #E1371A;
   border-radius: 2.5ch;
 }
 
