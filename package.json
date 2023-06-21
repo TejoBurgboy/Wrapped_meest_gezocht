@@ -1,0 +1,27 @@
+{
+  "name": "wrapped-meest-bezocht",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "clipboard": "^2.0.11",
+    "fullpage.js": "^4.0.20",
+    "gsap": "^3.11.5",
+    "pagepiling.js": "^1.5.6",
+    "swiper": "^9.3.2",
+    "vue": "^3.2.47",
+    "vue-burger-menu": "^2.0.5",
+    "vue-fullpage.js": "^0.2.15",
+    "vue-grid-swiper": "^0.1.2",
+    "vue-world-map": "^0.1.1",
+    "vue3-json-source-viewer": "^2.4.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.1",
+    "vite": "^4.3.4"
+  }
+}

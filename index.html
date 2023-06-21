@@ -5,9 +5,16 @@
     <link rel="icon" href="/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vite App</title>
+    <script src="./src/assets/miniature.earth.js"></script>
   </head>
   <body>
     <div id="app"></div>
     <script type="module" src="/src/main.js"></script>
+    <script>
+    var myearth = new Earth( "myearth", {
+      location: { lat : 22.5, lng : 20 },
+      mapLandColor: '#333333',
+      mapSeaColor: '#DDDDDD'
+    } );</script>
   </body>
 </html>
