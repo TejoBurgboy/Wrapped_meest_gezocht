@@ -5,22 +5,108 @@
         "afk": "NL",
         "Bezoekers": 132525,
         "trentPrecentage": 5,
-        "id": 1
+        "id": 1,
+        "Lat": "52.132633",
+        "Lng": "5.291266"
     },
     {
-        "vlag": "images/be.png",
-        "land": "Belgie",
-        "afk": "BE",
+        "vlag": "images/za.png",
+        "land": "Zuid-Afrika",
+        "afk": "ZA",
         "Bezoekers": 31321,
         "trentPrecentage": 9,
-        "id": 2
+        "id": 2,
+        "Lat": "-30.559483",
+        "Lng": "22.937506"
     },
     {
-        "vlag": "images/de.png",
-        "land": "Duitsland",
-        "afk": "DE",
+        "vlag": "images/IN.png",
+        "land": "Indonesie",
+        "afk": "ID",
         "Bezoekers": 8349,
         "trentPrecentage": -13,
-        "id": 3
+        "id": 3,
+        "Lat": "-0.789275",
+        "Lng": "113.921326"
+    },
+    {
+        "non3afk": "US",
+        "Bezoekers": "7341",
+        "Lat": "37.090240",
+        "Lng": "-95.712891"
+
+    },
+    {
+        "non3afk": "FR",
+        "Bezoekers": "7341",
+        "Lat": "46.227638",
+        "Lng": "2.213749"
+        
+    },    {
+        "non3afk": "AU",
+        "Bezoekers": "7111",
+        "Lat": "-25.274399",
+        "Lng": "133.775131"
+    },    {
+        "non3afk": "CH",
+        "Bezoekers": "6845",
+        "Lat": "46.818188",
+        "Lng": "8.227512"
+    },    {
+        "non3afk": "JP",
+        "Bezoekers": "6843",
+        "Lat": "36.204823",
+        "Lng": "138.252930"
+    },    {
+        "non3afk": "CN",
+        "Bezoekers": "6805",
+        "Lat": "35.861660",
+        "Lng": "104.195396"
+    },    {
+        "non3afk": "DK",
+        "Bezoekers": "6571",
+        "Lat": "56.162937",
+        "Lng": "10.203921"
+    },    {
+        "non3afk": "GB",
+        "Bezoekers": "6241",
+        "Lat": "53.480759",
+        "Lng": "-2.242631"
+    },    {
+        "non3afk": "ES",
+        "Bezoekers": "6183",
+        "Lat": "40.416775",
+        "Lng": "-3.703790"
+    },    {
+        "non3afk": "SE",
+        "Bezoekers": "6032",
+        "Lat": "60.128162",
+        "Lng": "18.643501"
+    },    {
+        "non3afk": "SR",
+        "Bezoekers": "6002",
+        "Lat": "3.919305",
+        "Lng": "-56.027782"
+    },    {
+        "non3afk": "BE",
+        "Bezoekers": "7341",
+        "Lat": "50.850346",
+        "Lng": "4.351721"
+    },    {
+        "non3afk": "DE",
+        "Bezoekers": "7341",
+        "Lat": "51.1656918",
+        "Lng": "10.451526"
+    },    {
+        "non3afk": "TR",
+        "Bezoekers": "7341",
+        "Lat": "38.963745",
+        "Lng": "35.243320"
+    },
+    {
+        "non3afk": "AQ",
+        "Bezoekers": "Juliette Groot",
+        "Lat": "-82.862755",
+        "Lng": "135.000000"
     }
 ]

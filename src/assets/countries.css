@@ -23,8 +23,8 @@ margin-bottom: 2%;
 }
 
 .vlag{
-    width: 5%;
-    height: 5%;
+    width: 4%;
+    height: 4%;
 }
 h3{
     color:cyan;
@@ -56,7 +56,7 @@ flex-direction: row;
 }
 
 .landNaam{
-  font-size: 32px; 
+  font-size: 20px; 
   margin-left: 1%; 
 }
 
@@ -80,17 +80,17 @@ flex-direction: row;
 .mostCountryViews {
     position: absolute;
     left: -5%;
-    padding: .9% 1.5% .9% 1.5%;
+    padding: .5% 1% .5% 1%;
     background-color: black;
-    margin-top: 2.4%;
+    margin-top: 2%;
     margin-right: 8px;
     border-radius: .5ch;
   }
 
 #myearth{
-    width: 40%;
+    width: 55%;
     position: absolute;
-    right: 18%;
-    bottom: -20%;
+    right: 10%;
+    bottom: -35%;
 }
   
